@@ -1,0 +1,6 @@
+{
+  "name": "Safaricom AWS AI Practitioner (AIF-C01) Self-Study Textbook",
+  "description": "A comprehensive 12-week beginner-friendly self-study textbook teaching AWS AI Practitioner (AIF-C01) concepts and services through real Safaricom products and customer scenarios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
