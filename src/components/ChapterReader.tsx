@@ -56,7 +56,7 @@ const WorkedExampleBlock: React.FC<{ example: WorkedExample; label: string }> = 
             className="px-6 py-3.5 grid grid-cols-1 md:grid-cols-12 gap-2 md:gap-6 text-sm"
           >
             <dt className="md:col-span-4 font-semibold text-slate-800">{item.key}</dt>
-            <dd className="md:col-span-8 text-slate-700 leading-relaxed">{item.val}</dd>
+            <dd className="md:col-span-8 text-slate-700 leading-relaxed whitespace-pre-line">{item.val}</dd>
           </div>
         ))}
       </dl>

@@ -222,7 +222,7 @@ export const CHAPTERS_1_TO_4: Chapter[] = [
       whatServiceDoes:
         "Amazon S3 stores the historical tabular datasets safely; Amazon SageMaker AI provides the managed machine-learning platform to prepare features, train a custom supervised classification model, evaluate its accuracy, and host a prediction endpoint.",
       howItWorks:
-        "1) Anonymised historical customer tables are stored as CSV/Parquet files in Amazon S3. 2) SageMaker AI trains a classification algorithm (such as XGBoost) on those labeled rows. 3) During live inference, current anonymised account metrics are sent to the SageMaker endpoint, which outputs a churn probability score (e.g., 0.82 High Risk) so customer care can proactively send a technician check-in.",
+        "1) Anonymised historical customer tables are stored as CSV/Parquet files in Amazon S3.\n2) SageMaker AI trains a classification algorithm (such as XGBoost) on those labeled rows.\n3) During live inference, current anonymised account metrics are sent to the SageMaker endpoint, which outputs a churn probability score (e.g., 0.82 High Risk) so customer care can proactively send a technician check-in.",
       businessBenefit:
         "Retains Home Fibre households proactively, resolves hidden line quality issues earlier, and targets retention outreach accurately instead of contacting satisfied customers unnecessarily.",
       examConnection:
