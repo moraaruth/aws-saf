@@ -712,7 +712,7 @@ export const SERVICE_COMPARISON_PAIRS: ComparisonPair[] = [
     leftService: 'Amazon Transcribe',
     rightService: 'Amazon Polly',
     keyDistinction: 'Transcribe converts human speech INTO written text (ASR). Polly converts written text INTO spoken audio (TTS).',
-    safaricomRuleOfThumb: '*100 customer speaks → Transcribe writes case notes. *200 IVR needs to announce a balance → Polly speaks the text.',
+    safaricomRuleOfThumb: '*100 customer speaks → Transcribe writes case notes. *IVR needs to announce a balance → Polly speaks the text.',
   },
   {
     id: 'textract-vs-rekognition',

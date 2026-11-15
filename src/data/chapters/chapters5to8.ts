@@ -9,7 +9,7 @@ export const CHAPTERS_5_TO_8: Chapter[] = [
     domainLabel: 'Domain 2: Fundamentals of Generative AI',
     domainWeight: '24% of Exam',
     estimatedReadMinutes: 25,
-    featuredProducts: ['Zuri chatbot', '*100 and *200 IVR', 'Roaming services', 'PostPay'],
+    featuredProducts: ['Zuri chatbot', '*100 and *IVR', 'Roaming services', 'PostPay'],
     featuredServices: ['Amazon Lex', 'Amazon Bedrock'],
     learningObjectives: [
       'Write reliable, structured prompts using Role, Context, Instruction, Constraints, and Output Format.',
