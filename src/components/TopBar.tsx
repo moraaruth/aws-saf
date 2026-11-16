@@ -66,7 +66,7 @@ export const TopBar: React.FC<TopBarProps> = ({ activeView, onNavigate }) => {
                 : 'bg-emerald-700 text-white hover:bg-emerald-800'
             }`}
           >
-            Capstone &amp; Revision
+           Revision
           </button>
         </div>
       </div>
